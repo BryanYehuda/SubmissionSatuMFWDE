@@ -70,6 +70,7 @@ nav a {
 
 nav a:hover {
     font-weight: bold;
+    transition: font-weight 0.2s;
 }
 
 .wrapper {
@@ -98,6 +99,62 @@ nav a:hover {
 
 .nav-link {
     margin-top: 13px;
+}
+
+
+/***************************
+CONTENT
+***************************/
+
+.content {
+    margin: 32px auto auto;
+    text-align: left;
+}
+
+.content-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.content-paragraph {
+    padding: 16px;
+}
+
+.content-thumbnail {
+    width: 100%;
+}
+
+.content-rating {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.content-title {
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: -15px;
+    transition: 0.3s opacity;
+}
+
+.content-title:hover {
+    color: #D83A56;
+    transition: color 0.2s;
+}
+
+.content-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-description {
+    margin-top: -16px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
 }
 
 
@@ -138,15 +195,18 @@ input[type=submit] {
 input[type=submit]:hover,
 input[type=submit]:active {
     background-color: #D83A56;
+    transition: background-color 0.2s;
 }
 
 .btn-full:hover,
 .btn-full:active {
     border: 1px solid #D83A56;
+    transition: border 0.2s;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
     border: 1px solid #D83A56;
     color: #fff;
+    transition: all 0.2s;
 }

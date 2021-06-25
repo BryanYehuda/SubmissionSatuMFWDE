@@ -41,11 +41,9 @@ footer {
 }
 
 h2 {
-    color: #FFEAC9;
-}
-
-h3 {
-    color: #FFEAC9;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
 }
 
 
@@ -55,11 +53,12 @@ NAVBAR
 
 nav {
     background-color: #FF616D;
-    padding: 5px;
+    padding: 15px;
     position: sticky;
     top: 0;
-    min-height: 80px;
+    min-height: 60px;
     overflow: hidden;
+    text-align: right;
 }
 
 nav a {
@@ -73,10 +72,12 @@ nav a:hover {
     font-weight: bold;
 }
 
-nav li {
-    display: inline-block;
+.wrapper {
+    display: grid;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
 }
 
 .hero-text-box {
@@ -86,6 +87,17 @@ nav li {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #f7fff7;
+}
+
+.logo-image {
+    display: inline-block;
+    height: 45px;
+    width: auto;
+    left: 0%;
+}
+
+.nav-link {
+    margin-top: 13px;
 }
 
 

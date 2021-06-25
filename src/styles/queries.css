@@ -3,8 +3,43 @@
     grid-row-gap: 16px;
 }
 
+@media screen and (max-width: 499px) {
+    .nav {
+        z-index: 10;
+        background-color: #fff;
+        width: 300px;
+        position: absolute;
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(-300px, 0);
+        transition: transform 0.3s ease;
+        text-align: left;
+    }
+    .open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .nav-link {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    nav a {
+        color: black;
+    }
+}
+
 @media screen and (min-width: 500px) {
     .header__menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #drawer {
+        position: relative;
+        transform: translate(0, 0);
+    }
+    #hamburger {
         display: none;
     }
 }

@@ -1,7 +1,140 @@
+/***************************
+BASE CONFIGURATION
+***************************/
+
 * {
-    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
-img {
-    display: block;
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/heros/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #5a5a5a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #FF616D;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    color: #FFEAC9;
+}
+
+h3 {
+    color: #FFEAC9;
+}
+
+
+/***************************
+NAVBAR
+***************************/
+
+nav {
+    background-color: #FF616D;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    min-height: 80px;
+    overflow: hidden;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f7fff7;
+}
+
+
+/***************************
+BUTTON
+***************************/
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s;
+    color: 0.2s;
+    border: 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #FF616D;
+    border: 1px solid #FF616D;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #FF616D;
+    color: #FF616D;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #D83A56;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #D83A56;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #D83A56;
+    color: #fff;
 }

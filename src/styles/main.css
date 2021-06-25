@@ -83,7 +83,7 @@ nav a:hover {
 
 .hero-text-box {
     position: absolute;
-    width: 1140px;
+    width: 80%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -127,6 +127,7 @@ CONTENT
 }
 
 .content-thumbnail {
+    height: 300px;
     width: 100%;
 }
 
@@ -185,6 +186,7 @@ input[type=submit] {
     transition: background-color 0.2s;
     color: 0.2s;
     border: 0.2s;
+    text-align: center;
 }
 
 .btn-full:link,
@@ -194,12 +196,14 @@ input[type=submit] {
     border: 1px solid #FF616D;
     color: #fff;
     margin-right: 15px;
+    text-align: center;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #FF616D;
     color: #FF616D;
+    text-align: center;
 }
 
 .btn:hover,

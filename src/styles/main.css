@@ -106,6 +106,10 @@ nav a:hover {
 CONTENT
 ***************************/
 
+.headline {
+    margin-bottom: 40px;
+}
+
 .content {
     margin: 32px auto auto;
     text-align: left;
@@ -127,16 +131,24 @@ CONTENT
 }
 
 .content-rating {
+    display: inline;
     font-size: 30px;
     font-weight: 700;
-    text-transform: uppercase;
+    color: #000000;
+}
+
+.content-location {
+    display: inline;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
     color: #000000;
 }
 
 .content-title {
     font-weight: 400;
     font-size: 36px;
-    margin-top: -15px;
+    margin-top: -7px;
     transition: 0.3s opacity;
 }
 

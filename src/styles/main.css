@@ -195,6 +195,25 @@ CONTENT
 
 
 /***************************
+SKIP TO CONTENT
+***************************/
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #66DE93;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+
+/***************************
 BUTTON
 ***************************/
 

@@ -106,11 +106,17 @@ nav a:hover {
 DRAWER
 ***************************/
 
-.header__menu {
-    font-size: 32px;
+.off-canvas {
     margin: 10px auto;
     display: block;
     width: 30px;
+}
+
+#menu {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    transform: translate(15px, 0);
 }
 
 
@@ -145,7 +151,7 @@ CONTENT
 
 .content-rating {
     display: inline;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #000000;
 }
@@ -153,7 +159,7 @@ CONTENT
 .content-location {
     display: inline;
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #000000;
 }

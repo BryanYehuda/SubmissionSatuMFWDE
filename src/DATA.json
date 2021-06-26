@@ -70,6 +70,30 @@
             "pictureId": "https://dicoding-restaurant-api.el.r.appspot.com/images/medium/04",
             "city": "Malang",
             "rating": 3.9
+        },
+        {
+            "id": "19xhxxkcowlqdz",
+            "name": "Ikan Bakar Bakar",
+            "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+            "pictureId": "https://www-cdn.pawoon.com/wp-content/uploads/2019/10/08091405/1-1024x675.jpg",
+            "city": "Surabaya",
+            "rating": 4.9
+        },
+        {
+            "id": "wf5o19xhxxkco",
+            "name": "Modernation",
+            "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+            "pictureId": "https://grahamultisarana.com/data/uploads/2018/05/resto-00.jpg",
+            "city": "Jakarta",
+            "rating": 4.3
+        },
+        {
+            "id": "wf5o19cowlqdz",
+            "name": "High Society",
+            "description": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.",
+            "pictureId": "https://akcdn.detik.net.id/visual/2015/03/30/a7a708fe-2f73-41a0-82d8-5c89d1525197_169.jpg?w=650",
+            "city": "Bandung",
+            "rating": 4.6
         }
     ]
 }

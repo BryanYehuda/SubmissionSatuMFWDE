@@ -40,7 +40,12 @@ footer {
     font-weight: bold;
 }
 
+h1 {
+    font-size: 36px;
+}
+
 h2 {
+    font-size: 30px;
     text-align: center;
     margin-top: 20px;
     padding-top: 20px;
@@ -145,28 +150,28 @@ CONTENT
 }
 
 .content-thumbnail {
-    height: 300px;
+    height: auto;
     width: 100%;
 }
 
 .content-rating {
     display: inline;
-    font-size: 25px;
+    font-size: 19px;
     font-weight: 700;
     color: #000000;
 }
 
 .content-location {
     display: inline;
-    margin-left: 20px;
-    font-size: 25px;
+    margin-left: 10px;
+    font-size: 19px;
     font-weight: 700;
     color: #000000;
 }
 
 .content-title {
     font-weight: 400;
-    font-size: 36px;
+    font-size: 25px;
     margin-top: -7px;
     transition: 0.3s opacity;
 }
@@ -196,6 +201,7 @@ BUTTON
 .btn:link,
 .btn:visited,
 input[type=submit] {
+    font-size: 17px;
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -222,6 +228,7 @@ input[type=submit] {
     border: 1px solid #FF616D;
     color: #FF616D;
     text-align: center;
+    margin-top: 20px;
 }
 
 .btn:hover,

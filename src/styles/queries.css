@@ -3,7 +3,7 @@
     grid-row-gap: 16px;
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 549px) {
     .nav {
         z-index: 10;
         background-color: #fff;
@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 550px) {
     .off-canvas {
         display: none;
     }
@@ -202,6 +202,6 @@
 
 @media screen and (min-width: 1250px) {
     .wrapper {
-        grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 4fr 2fr 2fr 2fr;
     }
 }

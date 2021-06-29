@@ -73,9 +73,6 @@
         position: relative;
         transform: translate(0, 0);
     }
-    #hamburger {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 650px) {
@@ -99,7 +96,7 @@
     }
     .btn-ghost:link,
     .btn-ghost:visited {
-        margin-top: 0px;
+        margin-top: 0;
     }
     h1 {
         font-size: 39px;

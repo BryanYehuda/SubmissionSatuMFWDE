@@ -9,7 +9,7 @@ const drawer = document.querySelector('#drawer');
 
 const addWrapper = function() {
     if (window.screen.width >= 500) {
-        var element = document.getElementById("wrapperid");
+        const element = document.getElementById("wrapperid");
         element.classList.add("wrapper");
     }
 }

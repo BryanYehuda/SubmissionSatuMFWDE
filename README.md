@@ -1,4 +1,4 @@
-# SubmissionSatuMFWDE
+# Submission Satu MFWDE
 
 ## English
 ### This is a repository for storing code that will be used in the submission of one in the "Becoming a Front-End Web Developer Expert" class from Dicoding.
